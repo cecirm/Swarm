@@ -98,10 +98,4 @@ GROUP_JOIN_RADIUS = SENSING_RADIUS # radius for SEARCH->GROUP transitions
 LEADER_FOUND = False               # has found leader during iteration
 
 # Randomness control
-RNG_SEED = 50                                              # seed for reproducible simulations
-
-def has_found_leader():
-    global LEADER_FOUND
-    if not LEADER_FOUND:
-        LEADER_FOUND = True
-        print("Leader found")
+RNG_SEED = 1285                    # seed for reproducible simulations
