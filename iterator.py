@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Batch simulation tester for swarm formation analysis.
 
@@ -275,10 +276,10 @@ def main():
     Main program for enhanced batch simulation testing with performance analysis.
     """
     parser = argparse.ArgumentParser(description='Enhanced Batch Swarm Simulation Tester')
-    parser.add_argument('--start', type=int, default=1, 
-                       help='Starting seed value (default: 1)')
-    parser.add_argument('--end', type=int, default=50,
-                       help='Ending seed value (default: 1000)')
+    parser.add_argument('--start', type=int, default=1201,
+                       help='Starting seed value (default: 1201)')
+    parser.add_argument('--end', type=int, default=1800,
+                       help='Ending seed value (default: 1800)')
     parser.add_argument('--progress', type=int, default=50,
                        help='Progress report interval (default: 50)')
     parser.add_argument('--quick', action='store_true',
