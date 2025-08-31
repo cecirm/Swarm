@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Batch simulation tester for swarm formation analysis.
 
@@ -279,7 +278,7 @@ def main():
     parser.add_argument('--start', type=int, default=1, 
                        help='Starting seed value (default: 1)')
     parser.add_argument('--end', type=int, default=50,
-                       help='Ending seed value (default: 50)')
+                       help='Ending seed value (default: 1000)')
     parser.add_argument('--progress', type=int, default=50,
                        help='Progress report interval (default: 50)')
     parser.add_argument('--quick', action='store_true',
