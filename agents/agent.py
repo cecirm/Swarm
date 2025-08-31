@@ -522,7 +522,6 @@ class Agent:
         ]
 
         self.leader = self._get_leader(visible_agents)
-        settings.has_found_leader()
 
     @staticmethod
     def _distance(pos1, pos2):
